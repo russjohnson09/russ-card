@@ -16,6 +16,5 @@ class Card extends Model
 			return true;
 		}
 		return $pastReview->due_date->isPast();
-		//return $pastReview->due_date->lt(Carbon::now());
 	}
 }
