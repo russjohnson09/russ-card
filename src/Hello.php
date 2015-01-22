@@ -3,7 +3,7 @@
 class Hello {
 	
 	
-	public static function hello() {
+	public static function returnOne() {
 		
 		return 1;
 	}
